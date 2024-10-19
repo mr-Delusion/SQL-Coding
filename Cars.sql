@@ -20,7 +20,7 @@ INSERT INTO cars VALUES
 ( 'Mazda', "CX-5", "Uganda");
 
 
-SELECT * FROM cars WHERE;
+SELECT * FROM cars WHERE name;
 SELECT * FROM cars WHERE;
 SELECT * FROM cars WHERE;
 SELECT * FROM cars WHERE;
