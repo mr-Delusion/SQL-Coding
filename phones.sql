@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 CREATE TABLE PHONES(
 name VARCAHR(10000),
 displaytype VARCHAR(10000),
