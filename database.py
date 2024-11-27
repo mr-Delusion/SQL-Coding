@@ -17,7 +17,7 @@ SELECT Country. Country_id, Country.Country_Name, City. City_Name
 FROM Country
 INNER JOIN City
 ON Country. Country_Id == City. Country_Id
-""")
+""",conn)
 print(tables)
 
 print(joined_cities)
@@ -30,11 +30,11 @@ ON player. Player_Id == season.Man_of_the_Series
 
 print(joined_left)
 
-joined_cross = pd.read-sql("""
+joined_cross = pd.read_sql("""
 SELECT c.Country_id, c.Country_Name, ci.City_Name
 FROM Country c
 CROSS JOIN city ci
-""")
+""",conn)
 
 union = pd.read_sql("""
 SELECT Player_Name FROM Player
