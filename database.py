@@ -34,7 +34,8 @@ joined_cross = pd.read_sql("""
 SELECT c.Country_id, c.Country_Name, ci.City_Name
 FROM Country c
 CROSS JOIN city ci
-""",conn)
+"""
+,conn)
 
 union = pd.read_sql("""
 SELECT Player_Name FROM Player
